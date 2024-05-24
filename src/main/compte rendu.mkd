@@ -1,0 +1,32 @@
+
+
+*Compte rendu soft*
+
+*Gare*
+- Comme prévu, l'écran affiche bien les états du train, ici de manière alétoire pour le moment.
+- Comme prévu, quand le train passe en gare, il s'arrête et repart, on change les aiguillage.
+- info : vous pouvez retrouver le tuto branchement dans le dossier branchement
+
+*Train*
+- info : vous pouvez retrouver le tuto branchement dans le dossier branchement
+- le code compile et se téléverse bien
+
+*TO DO*
+- Définir les angles des aiguillages. @Thomas on a besoin de ton aiguillage rapidement si possible.
+- Faire marcher les capteurs HC-05.
+- branchement des capteurs HC-05.
+- montage de la gare. (@Thomas)
+- régler la durée de fermeture des portes. => j'ai besoin des portes montées @Thomas
+- Il faut brancher un buzzer et le capteur ultrason (@Arthur Gautier if you could do that)
+
+- [soft] calibrer le capteur de couleur
+
+*Test à effectuer:*
+
+Listes des test à effectuer pour être sûr que le tramway fonctionne bien le jour de la soutenance.
+- [ ] Est ce que le train évite les obstacles ?
+- [ ] Est ce que le train s'arrête en gare ?
+- [ ] Est ce qu'il détecte bien les balises ?
+- [ ] Est ce que le train fait la différence entre les balises ?
+  - Si oui c'est cool
+  - Si non alors le train devra toujours démarer au même endroit et @Noé doit changer le code
